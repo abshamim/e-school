@@ -1,0 +1,61 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#header-section{
+    height: 600px;
+    background-color: #F0FFF0;
+    width: 100%;
+}
+.btn{
+    border-radius: 50px;
+    background-color: #21B573;
+    padding: 10px 20px !important;
+    border: none;
+    color: #fff !important;
+}
+.btn:hover{
+    background-color: #21b573;
+}
+.nav-item{
+    margin: 0px 8px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.navbar-brand img{
+    width: 180px;
+}
+.banner-section h2{
+    font-size: 16px;
+}
+.banner-section h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.banner-section p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+}
+#books-section img{
+    width: 65px;
+}
+#books-section .book-body{
+    background-color: #F8FFFB;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+}
+#books-section h1{
+    font-size: 24px;
+    color: #413960;
+}
+#books-section p{
+    font-size: 16px;
+    color: #585859;
+}
+#books-section .book-body:hover{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
