@@ -1,11 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-#header-section{
-    height: 600px;
-    background-color: #F0FFF0;
-    width: 100%;
-}
 .btn{
     border-radius: 50px;
     background-color: #21B573;
@@ -14,7 +9,12 @@ body{
     color: #fff !important;
 }
 .btn:hover{
-    background-color: #21b573;
+    background-color: #21b573 !important;
+}
+#header-section{
+    height: 600px;
+    background-color: #F0FFF0;
+    width: 100%;
 }
 .nav-item{
     margin: 0px 8px;
@@ -42,6 +42,9 @@ body{
 #books-section img{
     width: 65px;
 }
+#books-section .book-problem{
+    width: 52px;
+}
 #books-section .book-body{
     background-color: #F8FFFB;
     border-radius: 5px;
@@ -58,4 +61,85 @@ body{
 #books-section .book-body:hover{
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     background-color: white;
+}
+#course-section h1, #testimonial-section h1{
+    font-size: 36px !important;
+    font-weight: 700 !important;
+}
+#course-section img{
+    width: 100%;
+}
+#course-section .img-content{
+    background-color: white;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 18px;
+}
+#course-section .img-content h1{
+    font-size: 24px !important;
+    font-weight: 500;
+    margin-top: 25px;
+    color: rgba(65, 57, 96, 1);
+}
+#course-section .img-content h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    color: rgba(88, 88, 89, 1);
+}
+#course-section .img-content .btn{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 25px !important;
+    margin-top: 8px;
+}
+#course-section .img-content .course-detail img{
+    width: 20px;
+}
+#course-section .img-content .course-detail p{
+    font-size: 14px;
+}
+#course-section .img-content .course-detail h5{
+    margin: 0px 0px 0px 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+#course-section .img-content .course-time{
+    padding-top: 40px;
+}
+#testimonial-section .test-content img{
+    width: 120px;
+    margin-right: 50px;
+}
+#footer-section{
+    background-color: rgba(40, 37, 49, 1);
+    padding: 50px 0px 30px 0px;
+    margin-top: 80px;
+}
+#footer-section img{
+    width: 160px;
+}
+#footer-section p{
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+#footer-section h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+#footer-section ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#footer-section ul li{
+    font-weight: 300;
+    font-size: 16px;
+}
+#footer-section ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
 }
